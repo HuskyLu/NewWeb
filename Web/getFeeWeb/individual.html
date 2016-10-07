@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<title>个人中心</title>
+	<link rel="stylesheet" type="text/css" href="css/fit.css">
+	<link rel="stylesheet" type="text/css" href="css/templet.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconfont.css">
+</head>
+<body>
+	<nav class="nav-bar nav-bar-tab">
+        <a href="index.html" class="nav-tab-item ">
+            <span class="nav-icon icon-uniE90A"></span>
+            <span class="nav-tab-label">首页</span>
+        </a>
+			<a href="userFirm.html" class="nav-tab-item nav-active">
+            <span class="nav-icon icon-uniE90B"></span>
+            <span class="nav-tab-label">我的</span>
+        </a>
+	</nav>
+	<!-- 个人中心 user-->
+	<div class="setBg-box"></div>
+	<div class="cy-user">
+		<div class="userPu">
+			<!-- 头像部分 -->
+			<div class="userPu-h">
+				<div class="user-h-img"><img id="headPort"></div>
+				<div class="user-h-text">
+					<div class="user-name"><span id="user_name"></span>
+						<a href="userUpgrade.html" class="outsider">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="user-circle">
+				<a href="circle.html">
+				<span>圈子</span>
+					<ul id="friend">
+						<li><img class="myfriend"></li>
+						<li><img class="myfriend"></li>
+						<li><img class="myfriend"></li>
+						<li><img class="myfriend"></li>
+					</ul>
+					<i class="icon-uniE926"></i>
+				</a>
+			</div>
+			<!-- 头像部分 end-->
+			<!-- 资料板块 -->
+			<div class="datum-box">
+				<ul class="datum-list">
+					<li class="dropdown">
+                    	<a href="mywallet.html">
+						<h1 data-toggle="dropdown" class="vtitle"><a href="buyRecord.html" class="Sign-in"><i class="ba-color ba-color3 icon-uniE94D"></i><p>&nbsp;购买记录</p></a></h1>
+                        </a>
+					</li>
+				</ul>
+				<!--<a href="validation.html" class="btn btn-max btn-green">交换名片</a>
+				<a href="javascript:;" class="btn btn-max btn-green">发送信息</a>-->
+				<!--<a href="javascript:;" class="btn btn-max btn-red">注销</a>-->
+			</div>
+			<!-- 资料板块 end-->
+		</div>
+	</div>
+	<!-- 个人中心 user end-->
+	<!-- 引用的js文件 -->
+	<script src="js/custom.js"></script>
+	<script type="text/javascript" src="js/individual.js"></script>
+</body>
+</html>

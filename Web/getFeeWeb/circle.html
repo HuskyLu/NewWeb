@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<title>圈子</title>
+	<link rel="stylesheet" type="text/css" href="css/fit.css">
+	<link rel="stylesheet" type="text/css" href="css/templet.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="touchTouch/touchTouch.css">
+</head>
+<body>
+	<!--用户头部简单的信息-->
+	<div>
+		<header>
+			<div class="circle-user">
+				<div class="header">
+					<h1>圈子动态</h1>
+					<a href="individual.html" class="return"><i class="icon-16"></i></a>
+				</div>
+			</div>
+		</header>
+	</div>
+	<!--主体图片发布后显示内容-->
+	<div class="head-image">
+		<img class="circle-user-image" src="images/ts1.jpg">
+		<h1 id="userName">面对疾风吧</h1>
+	</div>
+	<div id="main">
+	</div>
+	<!--收费的弹出框-->
+	<div id="fee" style="display: none;">
+		<div class="fee">
+			<a class="close" id="close" href="javascript:;"><span class="icon-uniE959"></span></a>
+			<p class="price"><span class="cash">9</span>元</p>
+			<p class="redBag">发红包，看照片</p>
+			<a class="payMoney" href="javascript:;"><span class="wallet icon-uniE94E"></span>发红包</a>
+		</div>
+	</div>
+	<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="touchTouch/touchTouch.jquery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		for (var i = 0; i < 100; i++) {
+			$('#thumbs'+i+' a').touchTouch();
+		}
+		$('#thumbs1 a').touchTouch();
+		$('#thumbs2 a').touchTouch();
+		$('#thumbs3 a').touchTouch();
+
+
+	  	$(".like-i").click(function(){
+		    $(".like-i").addClass("like-i-active");
+	  	});
+	});
+	</script>
+	<script type="text/javascript" src="js/circle.js"></script>
+</body>
+</html>

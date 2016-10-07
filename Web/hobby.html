@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<title>卢梓进的个人简历</title>
+	<link rel="icon" href="image/1.ico">
+	<link rel="stylesheet" type="text/css" href="fonts/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+</head>
+<body>
+	<!--头部-->
+	<header>
+		<nav id="nav">
+			<a class="clickBtm" href="index.html"><span class="navTip">个人介绍</span><span class="icon icon-uniE92C"></span></a>
+			<a class="clickBtm clickOn" href="javascript:;"><span class="navTip">兴趣爱好</span><span class="icon icon-uniE92C"></span></a>
+			<a class="clickBtm" href="item.html"><span class="navTip">项目经验</span><span class="icon icon-uniE92C"></span></a>
+		</nav>
+	</header>
+	<!--主体正文部分-->
+	<div id="main">
+		<article id="hobby">
+			<div class="hobby">
+				<!--介绍-->
+				<h3 class="hobbyTitle">我的兴趣爱好其实有很多，下面列出一些我最喜欢的</h3>
+				<div class="container">
+					<div class="left">
+						<p class="hobbyIntro"><span class="special">摄影</span>是我最近迷上的爱好<br/>右边是我一些摄影照片的展示</p>
+					</div>
+					<!--轮播图-->
+					<div id="takePhoto" class="right">
+						<div id="list" class="list" style="left: -600px;">
+							<img src="image/IMG_1787.jpg" alt="1">
+							<img src="image/IMG_1636.jpg" alt="1">
+							<img src="image/IMG_1783.jpg" alt="2">
+							<img src="image/IMG_1639.jpg" alt="3">
+							<img src="image/IMG_1775.jpg" alt="4">
+							<img src="image/IMG_1777.jpg" alt="5">
+							<img src="image/IMG_1787.jpg" alt="6">
+							<img src="image/IMG_1636.jpg" alt="6">
+						</div>
+						<div id="buttons" class="buttons">
+							<span index="1" class="on"></span>
+							<span index="2"></span>
+							<span index="3"></span>
+							<span index="4"></span>
+							<span index="5"></span>
+							<span index="6"></span>
+						</div>
+						<a href="javascript:;" class="rollBtmLast" id="last">&lt;</a>
+						<a href="javascript:;" class="rollBtmNext" id="next">&gt;</a>
+					</div>
+				</div>
+				<div class="container">
+					<!--轮播图-->
+					<div id="marquee" class="right" style="float: left;left: 40px;">
+						<div id="con1" class="picture">
+							<img src="image/1.jpg" alt="1">
+							<img src="image/2.jpg" alt="2">
+							<img src="image/3.jpg" alt="3">
+							<img src="image/4.jpg" alt="4">
+							<img src="image/5.jpg" alt="5">
+							<img src="image/6.jpg" alt="6">
+							<img src="image/7.jpg" alt="7">
+						</div>
+						<div id="con2" class="picture"></div>
+					</div>
+					<div class="left" style="float: left;">
+						<p class="hobbyIntro"><span class="special">绘画</span>是我比较沉迷的爱好<br/>左边是我一些成果展示</p>
+					</div>
+				</div>
+			</div>
+		</article>
+	</div>
+	<!--尾部-->
+	<footer>
+		<div class="Mess">
+			<span id="phone" class="icon-uniE938 icon"></span>
+			<span id="QQ" class="icon-QQ icon"></span>
+		</div>
+		<div class="showMess">
+			<div id="phoneNum" class="phone">
+				<p>13422246187</p>
+				<p>676187</p>
+			</div>
+			<div id="QQscan" class="QQ">
+				<img src="image/3.png">
+			</div>
+		</div>
+	</footer>
+	<script src="js/rollPhoto.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+主页：index.html  index.jsp
+个人中心：individual.html   individual.jsp
+圈子：circle.html  action.jsp
+账单：buyRecord.html   buyRecord.jsp
